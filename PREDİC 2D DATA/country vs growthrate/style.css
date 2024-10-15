@@ -1,0 +1,20 @@
+:root{
+    --color-primary: rgb(238, 238, 238);
+    --color-secondary: rgb(104, 109, 118);
+    --third: rgb(55, 58, 64);
+    --fourth: rgb(220, 95, 0);
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    padding: 8px;
+    background-color: var(--color-primary);
+    color: var(--third);
+    font-size: 18px;
+}
+h1{
+    text-align: center;
+    color: var(--fourth);
+}
